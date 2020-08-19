@@ -61,7 +61,11 @@ border-radius: 30px 25px 25px 25px;
   right:0%;
  bottom:0;
  
-#p{
-font-size:25px;
 }
+
+@media screen and (max-width: 480px){
+  #sign{
+    top:0;
+    margin-top: 10px;
+  }
 }
